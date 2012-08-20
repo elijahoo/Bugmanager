@@ -1,0 +1,10 @@
+<h2>Bug melden</h2>
+<%= form_for @bug do |f| %>
+<%= f.label :Vorname %>
+<%= f.text_field :vorname %>
+<%= f.label :Titel %>
+<%= f.text_field :name %>
+<%= f.label :Bug %>
+<%= f.text_area :bug %>
+<%= f.submit :Abschicken! %>
+<% end %>

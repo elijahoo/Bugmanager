@@ -1,0 +1,70 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1338376472.852412:@value{	I"length:EFiI"digest;
+F"%7ae2442d11aad44b6d87ac772aec0f23I"source;
+FI"/* line 9, ../../app/assets/stylesheets/bugs.css.scss */
+* {
+  margin: 0;
+}
+
+/* line 12, ../../app/assets/stylesheets/bugs.css.scss */
+body {
+  background-color: #ddd;
+}
+
+/* line 16, ../../app/assets/stylesheets/bugs.css.scss */
+#container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* line 21, ../../app/assets/stylesheets/bugs.css.scss */
+#header {
+  background-color: #006999;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 28, ../../app/assets/stylesheets/bugs.css.scss */
+#content {
+  border: 2px solid #006999;
+  padding: 10px;
+  background-color: #fff;
+  min-heigth: 200px;
+}
+/* line 33, ../../app/assets/stylesheets/bugs.css.scss */
+#content h2 {
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+}
+
+/* line 39, ../../app/assets/stylesheets/bugs.css.scss */
+#notice {
+  border: 1px solid #008414;
+  color: #008414;
+  background-color: #D8FFBB;
+}
+
+/* line 45, ../../app/assets/stylesheets/bugs.css.scss */
+#alert {
+  border: 1px solid #990a0c;
+  color: #990a0c;
+  background-color: #FFA894;
+}
+
+/* line 51, ../../app/assets/stylesheets/bugs.css.scss */
+label {
+  display: block;
+}
+
+/* line 55, ../../app/assets/stylesheets/bugs.css.scss */
+input {
+  margin: 0.5em 0;
+}
+
+/* line 59, ../../app/assets/stylesheets/bugs.css.scss */
+input[type="submit"] {
+  margin-top: 2em;
+}
+;
+FI"_version;
+F"%ca2dc2f6d50cb2d85fdccdac156fbc44

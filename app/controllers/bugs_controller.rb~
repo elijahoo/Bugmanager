@@ -1,0 +1,23 @@
+class BugsController < ApplicationController
+
+ def index
+    @bug = Bug.new
+ end
+
+ def create  
+  #@bug = Bug.new(params[:bug])
+  @name = @bug.vorname
+  @title = @bug.name
+  @message = @bug.bug
+  Client.token("elias.haefliger@swisscom.com", "hall0000", "post")
+  @project = Project.new
+  # Project.all
+  Client.use_ssl = true
+  Project.find('546537')
+  p @project.stories.nil?
+  p Story.new('546537', @message, @title, @name).all
+  p Story.new('546537', @message, @title, @name).create
+  
+  
+ end
+end
